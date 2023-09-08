@@ -1,0 +1,15 @@
+#!/bin/bash 
+
+echo enter a number 
+read num 
+if [ $num < 45 ]
+then
+	echo "below the range"
+ 	echo 
+elif [ $num <= 55 ]
+then
+	echo "In the range"
+else 
+	echo "above the range"
+fi
+

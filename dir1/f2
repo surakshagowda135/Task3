@@ -1,0 +1,12 @@
+#!/bin/bash 
+read character
+case $character in
+       
+	"A") echo "a is vowel" ;;
+	"E") echo "e is vowel" ;;
+	"I") echo "i is vowel" ;;
+	"O") echo "o is vowel" ;;
+	"U") echo "u is vowel" ;;
+	  *) echo "not an vowel"
+	;;
+esac
